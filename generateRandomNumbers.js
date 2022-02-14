@@ -17,4 +17,4 @@ function generateRandomNumbers(totalNumbersToGenerate) {
     return shuffle(a);
 }
 
-console.log(generateRandomNumbers(40));
+//console.log(generateRandomNumbers(40));
