@@ -36,12 +36,13 @@ async function getResult() {
     useThatResult(result); // Will not be executed before makeResult() is done
 }
 
+// call getResult() after 30s
 setTimeout(getResult, 30000);
 
 
 async function foo() {
   let promise = new Promise(function(resolve, reject) {
-    setTimeout(function() { resolve("done!")}, 60000);
+    setTimeout(function() { resolve("done!")}, 10000);
   });
 
   //waits until the promise resolves
