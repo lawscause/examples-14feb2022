@@ -6,8 +6,6 @@ hello().then(console.log);
 
 
 
-
-  
 async function makeResult(items) {
   console.log("makeResult started");
     let newArr= [];
